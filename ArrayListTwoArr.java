@@ -29,7 +29,6 @@ public class ArrayListTwoArr {
 		for(int i=0; i<list.size(); i++) {	
 			for(int j=0; j<list.get(i).length; j++) {
 				System.out.print("["+ i +"]" + "[" +j + "]" +":"  +list.get(i)[j] + " ");
-				
 			}// inner for
 			System.out.println();
 		}// outer for
@@ -38,8 +37,6 @@ public class ArrayListTwoArr {
 		for(int i=0; i<list.size(); i++) {
 			System.out.println(Arrays.toString(list.get(i)));
 		}
-		
-		
 		
 	}//main
 
